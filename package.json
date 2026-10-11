@@ -1,0 +1,1 @@
+{"name":"mission-mediq","version":"1.0.0","private":true,"main":"server.js","scripts":{"start":"node server.js","test":"node test/run.js"},"engines":{"node":">=22"},"dependencies":{"exceljs":"^4.4.0"},"devDependencies":{"jsdom":"^30.1.2"}}

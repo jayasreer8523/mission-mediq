@@ -1,0 +1,23 @@
+# Render Blueprint. Persistent disks need a paid instance type; keep numInstances at 1 (SQLite).
+services:
+  - type: web
+    name: mission-mediq
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /api/config
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_PATH
+        value: /data/mediq.db
+      - key: ALLOWED_EMAIL_DOMAINS
+        value: healthcatalyst.com
+      - key: ATTEMPT_MINUTES
+        value: "20"
+      - key: TRAINER_PASSWORD_HASH
+        sync: false   # you paste the hash in the dashboard; never commit it
+    disk:
+      name: mediq-data
+      mountPath: /data
+      sizeGB: 1

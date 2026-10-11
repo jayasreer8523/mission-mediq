@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "S01-Q1",
+  "session": 1,
+  "objectiveNumber": 1,
+  "objective": "Describe the five phases of care (prevention, diagnosis, treatment, rehabilitation, long-term management) with one example each.",
+  "type": "scenario",
+  "text": "Maria feels unusually thirsty and tired. Her clinician orders a blood test to find out the cause. Which purpose of healthcare does this test mainly serve?",
+  "options": [
+   "Diagnosis",
+   "Prevention",
+   "Treatment",
+   "Rehabilitation"
+  ],
+  "correctIndex": 0,
+  "explanation": "A test ordered to find the cause of symptoms is diagnosis. Prevention is about keeping problems from starting, treatment is about managing or curing them, and rehabilitation is about regaining function.",
+  "source": "Session 1, slide 6: Five purposes of healthcare",
+  "sourceSlide": 6
+ },
+ {
+  "id": "S01-Q2",
+  "session": 1,
+  "objectiveNumber": 2,
+  "objective": "Distinguish primary, secondary, tertiary, emergency and urgent care, and give a typical setting for each.",
+  "type": "scenario",
+  "text": "Maria has a minor cut and a mild fever. Nothing suggests a serious threat to her health, but she needs same-day treatment. Which type of care fits best?",
+  "options": [
+   "Urgent care",
+   "Emergency care",
+   "Tertiary care",
+   "Secondary care"
+  ],
+  "correctIndex": 0,
+  "explanation": "Urgent care is for problems that need prompt attention but do not threaten life or risk serious impairment. Emergency care is for conditions that could seriously endanger health, including serious impairment or organ dysfunction.",
+  "source": "Session 1, slide 9: Other types of care",
+  "sourceSlide": 9
+ },
+ {
+  "id": "S01-Q3",
+  "session": 1,
+  "objectiveNumber": 2,
+  "objective": "Distinguish primary, secondary, tertiary, emergency and urgent care, and give a typical setting for each.",
+  "type": "spot-the-error",
+  "text": "A trainee writes: 'Palliative care and hospice care are the same thing.' Which correction is best?",
+  "options": [
+   "Palliative care is for anyone with a serious illness, not only at the end of life; hospice is for terminal illness",
+   "Palliative care is only for the final days of life, while hospice can begin at any time after diagnosis",
+   "Palliative care replaces all other treatment, while hospice is given alongside curative treatment",
+   "Palliative care is provided only in hospitals, while hospice is provided only at home"
+  ],
+  "correctIndex": 0,
+  "explanation": "Palliative care supports people with a serious illness (symptom relief, emotional support, care coordination). Hospice care focuses on comfort and quality of life in terminal illness.",
+  "source": "Session 1, slide 10: Palliative care vs hospice care",
+  "sourceSlide": 10
+ },
+ {
+  "id": "S01-Q4",
+  "session": 1,
+  "objectiveNumber": 3,
+  "objective": "Explain four features of the US system: mixed public/private model, insurance-driven, high spending, technology-driven.",
+  "type": "concept",
+  "text": "A new analyst asks why coverage and billing data matter so much in US healthcare. Which answer best reflects how the system works?",
+  "options": [
+   "Insurance shapes access, provider networks and patient cost, so coverage and billing data drive many decisions",
+   "Because the US has a single national insurer, coverage data is identical for every patient everywhere",
+   "Hospitals and clinicians set all prices alone, so insurance data adds little to decisions",
+   "Coverage decides who pays but not whether people can get care, so it matters little to access"
+  ],
+  "correctIndex": 0,
+  "explanation": "The US system is a mix of public and private payers and providers, and insurance strongly shapes access, cost and what patients pay.",
+  "source": "Session 1, slide 11: Four features of the US system",
+  "sourceSlide": 11
+ },
+ {
+  "id": "S01-Q5",
+  "session": 1,
+  "objectiveNumber": 4,
+  "objective": "Name three modern healthcare challenges and link each to a data or technology problem.",
+  "type": "best-next-action",
+  "text": "Maria's PCP, endocrinologist and urgent care each keep her data in a different system, and the systems cannot share it consistently. Which challenge is this, and what helps address it?",
+  "options": [
+   "Interoperability; standards such as HL7 and FHIR help systems share data",
+   "Data volume; moving every record to cheaper storage would solve the problem",
+   "Rising costs; negotiating lower prices with each provider would solve the problem",
+   "Access gaps; opening more clinic locations would solve the problem"
+  ],
+  "correctIndex": 0,
+  "explanation": "Systems that cannot share data consistently are an interoperability problem. Standards such as HL7, FHIR and DICOM are part of the technology response.",
+  "source": "Session 1, slide 12: Challenges are data problems too",
+  "sourceSlide": 12
+ },
+ {
+  "id": "S01-Q6",
+  "session": 1,
+  "objectiveNumber": 5,
+  "objective": "Explain in plain words what Healthcare IT (HIT) is.",
+  "type": "scenario",
+  "text": "A new colleague says, 'Healthcare IT just means the hospital help desk.' Which description is more accurate?",
+  "options": [
+   "Digital systems used to store, manage, exchange and analyse healthcare information",
+   "Only the imaging machines that capture scans, such as MRI and CT equipment",
+   "Only the patient-facing apps and websites used to book, confirm and reschedule appointments online",
+   "Only the insurer's claims computers that process payments and denials"
+  ],
+  "correctIndex": 0,
+  "explanation": "Healthcare IT covers the digital systems used to store, manage, exchange and analyse healthcare information, such as EHRs, HIE, portals, imaging systems and analytics platforms.",
+  "source": "Session 1, slide 13: What is Healthcare IT (HIT)?",
+  "sourceSlide": 13
+ },
+ {
+  "id": "S02-Q1",
+  "session": 2,
+  "objectiveNumber": 1,
+  "objective": "Classify an organisation as a provider, payer, clearinghouse, business associate, regulator, technology vendor or collaborative network.",
+  "type": "scenario",
+  "text": "A company hosts Maria's clinic's EHR and handles her PHI under a written agreement with the clinic. Which stakeholder type fits the company best?",
+  "options": [
+   "Business associate",
+   "Health plan (payer)",
+   "Healthcare clearinghouse",
+   "Government regulator"
+  ],
+  "correctIndex": 0,
+  "explanation": "A third party that performs a service involving PHI on behalf of a healthcare entity is a business associate and must follow HIPAA privacy and security rules.",
+  "source": "Session 2, slide 13: Business associates",
+  "sourceSlide": 13
+ },
+ {
+  "id": "S02-Q2",
+  "session": 2,
+  "objectiveNumber": 2,
+  "objective": "Explain the roles of the PCP, specialist, patient, member, subscriber and guarantor.",
+  "type": "scenario",
+  "text": "Maria is covered under an insurance policy held by her spouse. Which statement describes the roles correctly?",
+  "options": [
+   "Her spouse is the subscriber; Maria is a member and, when she receives care, the patient",
+   "Maria is the subscriber, because the person receiving care always holds the policy",
+   "Her spouse is the patient, because the policyholder is always the person who receives the care",
+   "Maria is the guarantor, because guarantor means enrolled in the health plan"
+  ],
+  "correctIndex": 0,
+  "explanation": "The subscriber holds the policy, a member is enrolled in the plan, the patient receives care, and the guarantor is financially responsible for the bill. One person can hold several roles.",
+  "source": "Session 2, slide 11: Patient, member, subscriber, guarantor",
+  "sourceSlide": 11
+ },
+ {
+  "id": "S02-Q3",
+  "session": 2,
+  "objectiveNumber": 3,
+  "objective": "Describe how information and money move between provider, patient and payer during one visit.",
+  "type": "concept",
+  "text": "After Maria's visit to the endocrinologist, her insurance covers part of the bill. Which description of the money flow matches the deck's commercial-plan example?",
+  "options": [
+   "The payer pays the provider its share; the provider bills Maria her patient responsibility after payments and adjustments",
+   "The payer pays Maria her share, and Maria then pays the provider the full amount",
+   "The payer pays the provider its share, and the provider then bills Maria for the full original charge instead of her share",
+   "The clearinghouse pays the provider and later collects the full amount back from Maria"
+  ],
+  "correctIndex": 0,
+  "explanation": "Information and money take different paths. The payer sits in the middle: it pays the provider its share, and the provider bills the patient for her patient responsibility after applicable payments and adjustments, not automatically for the whole unpaid balance.",
+  "source": "Session 2, slide 22: Debrief: how money moves",
+  "sourceSlide": 22
+ },
+ {
+  "id": "S02-Q4",
+  "session": 2,
+  "objectiveNumber": 4,
+  "objective": "Explain at an introductory level what HIEs, ACOs, IPAs and IDNs are and why they exist.",
+  "type": "scenario",
+  "text": "An emergency room needs Maria's allergy history from other providers' systems. Which kind of organization exists mainly to help share patient data securely across providers?",
+  "options": [
+   "Health Information Exchange (HIE)",
+   "Independent Physician Association (IPA)",
+   "Accountable Care Organization (ACO)",
+   "Integrated Delivery Network (IDN)"
+  ],
+  "correctIndex": 0,
+  "explanation": "An HIE shares patient data securely across providers. An ACO shares accountability for quality and cost, an IPA shares business resources, and an IDN shares management.",
+  "source": "Session 2, slide 16: Networks that connect organizations",
+  "sourceSlide": 16
+ },
+ {
+  "id": "S02-Q5",
+  "session": 2,
+  "objectiveNumber": 5,
+  "objective": "State where a healthcare technology company typically sits in this ecosystem.",
+  "type": "concept",
+  "text": "A company builds and runs analytics platforms for hospitals and handles their PHI. Which statement best describes where it sits in the ecosystem?",
+  "options": [
+   "It supplies systems and services to providers and payers, and is often a business associate",
+   "It is a regulator, because it sets and enforces the rules that hospitals must follow when they use data",
+   "It is a payer, because it works with claims data and reimbursement files",
+   "It is a provider, because it handles clinical information about patients"
+  ],
+  "correctIndex": 0,
+  "explanation": "Healthcare technology organizations supply systems and services to providers, payers and others, and are often business associates when they handle PHI on their behalf.",
+  "source": "Session 2, slide 15: Healthcare technology organizations",
+  "sourceSlide": 15
+ },
+ {
+  "id": "S02-Q6",
+  "session": 2,
+  "objectiveNumber": 1,
+  "objective": "Classify an organisation as a provider, payer, clearinghouse, business associate, regulator, technology vendor or collaborative network.",
+  "type": "spot-the-error",
+  "text": "A trainee writes: 'Clearinghouses decide how much the insurer will pay.' What is wrong with this statement?",
+  "options": [
+   "Clearinghouses check, standardise and send claims; the payer reviews them and decides payment",
+   "Nothing; clearinghouses approve or deny each claim on the payer's behalf after scrubbing it",
+   "Clearinghouses set the allowed amount for each service on the claim before it is sent on",
+   "Clearinghouses determine whether the patient is eligible for coverage"
+  ],
+  "correctIndex": 0,
+  "explanation": "A clearinghouse scrubs claims, converts them to standard formats and sends them securely to payers. The payer decides how much to pay.",
+  "source": "Session 2, slide 12: Clearinghouses: the claim checkers",
+  "sourceSlide": 12
+ },
+ {
+  "id": "S03-Q1",
+  "session": 3,
+  "objectiveNumber": 1,
+  "objective": "Compare employer-sponsored, individual (including Marketplace), Medicare and Medicaid coverage in one sentence each.",
+  "type": "concept",
+  "text": "A low-income family asks which government programme might cover them. The deck notes that eligibility rules vary by state. Which programme fits?",
+  "options": [
+   "Medicaid",
+   "Medicare",
+   "An employer-sponsored plan",
+   "A Marketplace plan with no subsidy"
+  ],
+  "correctIndex": 0,
+  "explanation": "Medicaid is a joint federal and state programme for low-income individuals and families, with eligibility rules that vary by state. Medicare mainly covers people aged 65 and over and some people with disabilities.",
+  "source": "Session 3, slide 6: Medicare and Medicaid",
+  "sourceSlide": 6
+ },
+ {
+  "id": "S03-Q2",
+  "session": 3,
+  "objectiveNumber": 2,
+  "objective": "Define premium, deductible, copayment, coinsurance and out-of-pocket maximum, and in-network vs out-of-network care.",
+  "type": "spot-the-error",
+  "text": "A colleague says that everything Maria pays counts toward her out-of-pocket maximum. Which cost does NOT count toward it?",
+  "options": [
+   "Her monthly premium",
+   "Her deductible payments",
+   "Her coinsurance for covered in-network care",
+   "Her copayments for covered care"
+  ],
+  "correctIndex": 0,
+  "explanation": "Premiums do not count toward the out-of-pocket maximum. Deductibles, copays and coinsurance for covered care usually do (check the plan).",
+  "source": "Session 3, slide 9: Copayment and out-of-pocket maximum",
+  "sourceSlide": 9
+ },
+ {
+  "id": "S03-Q3",
+  "session": 3,
+  "objectiveNumber": 3,
+  "objective": "Calculate a patient's and an insurer's share of a bill from stated plan rules, starting from the allowed amount.",
+  "type": "calculation",
+  "text": "Maria's plan has a $40 specialist copay that is not subject to the deductible. A covered in-network specialist visit has a billed charge of $350 and an allowed amount of $250. How much does the insurer pay?",
+  "options": [
+   "$210",
+   "$250",
+   "$310",
+   "$40"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cost-sharing starts from the allowed amount, not the billed charge. Maria pays the $40 copay, so the insurer pays $250 - $40 = $210.",
+  "source": "Session 3, slide 22: Answer: Scenario 2",
+  "sourceSlide": 22
+ },
+ {
+  "id": "S03-Q4",
+  "session": 3,
+  "objectiveNumber": 3,
+  "objective": "Calculate a patient's and an insurer's share of a bill from stated plan rules, starting from the allowed amount.",
+  "type": "calculation",
+  "text": "Maria's covered in-network service has an allowed amount of $2,000. She still has $500 of her deductible to meet, then pays 20% coinsurance. She is far from her out-of-pocket maximum. How much does Maria owe?",
+  "options": [
+   "$800",
+   "$400",
+   "$500",
+   "$900"
+  ],
+  "correctIndex": 0,
+  "explanation": "Maria pays the $500 deductible first. The remaining allowed amount is $1,500, and 20% of $1,500 is $300. Her total is $500 + $300 = $800. In this scenario, coinsurance applies to the amount remaining after the deductible.",
+  "source": "Session 3, slide 15: Worked example: Maria's MRI",
+  "sourceSlide": 15
+ },
+ {
+  "id": "S03-Q5",
+  "session": 3,
+  "objectiveNumber": 4,
+  "objective": "Explain why eligibility verification and prior authorization do not guarantee payment, and why an EOB is not a bill.",
+  "type": "concept",
+  "text": "Maria receives an envelope from her insurer after a visit. It lists the billed amount, the allowed amount, what the insurer paid and what she may owe, and states 'This is not a bill'. What is this document?",
+  "options": [
+   "An explanation of benefits (EOB)",
+   "A bill from the provider",
+   "A prior authorization approval",
+   "A claim sent to the clearinghouse"
+  ],
+  "correctIndex": 0,
+  "explanation": "An EOB comes from the insurer and explains how a claim was processed. It is not a bill; the provider's bill arrives later and should match it.",
+  "source": "Session 3, slide 13: EOB vs the provider's bill",
+  "sourceSlide": 13
+ },
+ {
+  "id": "S03-Q6",
+  "session": 3,
+  "objectiveNumber": 5,
+  "objective": "Contrast fee-for-service with four value-based payment models, and name the data fields behind the numbers.",
+  "type": "concept",
+  "text": "A health system receives one fixed payment per person in advance to cover a defined set of services for that person. Which value-based payment model is this?",
+  "options": [
+   "Capitation",
+   "Bundled payment",
+   "Pay for performance",
+   "Shared savings"
+  ],
+  "correctIndex": 0,
+  "explanation": "Capitation is a fixed payment per person in advance for defined services. A bundled payment covers one episode of care, pay for performance links payment to targets, and shared savings rewards lower cost with quality.",
+  "source": "Session 3, slide 26: Four value-based payment models",
+  "sourceSlide": 26
+ },
+ {
+  "id": "S04-Q1",
+  "session": 4,
+  "objectiveNumber": 1,
+  "objective": "Distinguish EMR, EHR and PHR by owner, users and scope.",
+  "type": "scenario",
+  "text": "Maria logs her glucose readings in a phone app, and she decides who can see them. Which type of record is this?",
+  "options": [
+   "A personal health record (PHR)",
+   "An electronic medical record (EMR) kept by one clinic",
+   "An electronic health record (EHR) designed to be shared across organizations",
+   "A patient portal account run by the hospital"
+  ],
+  "correctIndex": 0,
+  "explanation": "A PHR is kept and controlled by the patient. An EMR or EHR is kept by provider organizations, and an HIE shares information between organizations.",
+  "source": "Session 4, slide 5: EMR, EHR and PHR",
+  "sourceSlide": 5
+ },
+ {
+  "id": "S04-Q2",
+  "session": 4,
+  "objectiveNumber": 2,
+  "objective": "Describe the role and typical users of the core systems: EHR, LIS, RIS, PACS, pharmacy, practice management and billing, and patient portal.",
+  "type": "scenario",
+  "text": "A radiology department needs to store and retrieve Maria's CT images so radiologists and clinicians can review them. Which system does this?",
+  "options": [
+   "PACS (picture archiving and communication system)",
+   "LIS (laboratory information system for lab results)",
+   "Practice management and billing system for charges",
+   "Patient portal for messaging and viewing results"
+  ],
+  "correctIndex": 0,
+  "explanation": "PACS stores and retrieves images. The RIS manages imaging scheduling and reports, the LIS handles lab orders and results, and the portal lets patients view and message.",
+  "source": "Session 4, slide 9: Clinical and diagnostic systems",
+  "sourceSlide": 9
+ },
+ {
+  "id": "S04-Q3",
+  "session": 4,
+  "objectiveNumber": 3,
+  "objective": "Trace a lab test through EHR, LIS, portal and analytics, and name where it can fail.",
+  "type": "sequence",
+  "text": "Dr. Chen orders an HbA1c test for Maria. Which sequence best shows the path of the order and result?",
+  "options": [
+   "EHR (order), LIS (lab processes), EHR (result returns), portal (Maria may see it)",
+   "Portal (order), EHR (lab processes), LIS (result returns), analytics (clinician reads it)",
+   "LIS (order), portal (lab processes), EHR (result returns), PACS (Maria may see it)",
+   "EHR (order), PACS (lab processes), LIS (result returns), clearinghouse (Maria may see it)"
+  ],
+  "correctIndex": 0,
+  "explanation": "The clinician orders in the EHR, the lab works in the LIS, the result returns to the EHR, and the portal may show it depending on settings. Analytics may use copies later.",
+  "source": "Session 4, slide 12: Maria's lab test: the path",
+  "sourceSlide": 12
+ },
+ {
+  "id": "S04-Q4",
+  "session": 4,
+  "objectiveNumber": 4,
+  "objective": "Explain why legacy systems, vendors, data and workflows fragment healthcare data.",
+  "type": "scenario",
+  "text": "A hospital still runs an older system that is hard to connect to newer products. Which cause of data fragmentation does this describe?",
+  "options": [
+   "Legacy systems",
+   "Different vendors",
+   "Inconsistent data",
+   "Separate workflows"
+  ],
+  "correctIndex": 0,
+  "explanation": "Older systems that stay in use and are hard to connect are legacy systems. Other causes are different vendors, inconsistent data and separate workflows.",
+  "source": "Session 4, slide 15: Why healthcare data fragments",
+  "sourceSlide": 15
+ },
+ {
+  "id": "S04-Q5",
+  "session": 4,
+  "objectiveNumber": 5,
+  "objective": "Say where data originates versus where it is displayed or reused.",
+  "type": "concept",
+  "text": "Maria views her HbA1c result in the patient portal. Where was that result data first created, according to the deck?",
+  "options": [
+   "In the lab, where the analyzer measures it and the LIS records it; the portal only displays it",
+   "In the portal, because that is where Maria opens and reads the result for the first time after her visit",
+   "In the EHR, because the clinician sees and signs off the result there before anyone else",
+   "In the analytics platform, because reports are built from the data after it arrives"
+  ],
+  "correctIndex": 0,
+  "explanation": "Origin is where information is first created. Storage and display come later; a portal usually displays data created in another system.",
+  "source": "Session 4, slide 23: Suggested answers 5 to 7",
+  "sourceSlide": 23
+ },
+ {
+  "id": "S04-Q6",
+  "session": 4,
+  "objectiveNumber": 2,
+  "objective": "Describe the role and typical users of the core systems: EHR, LIS, RIS, PACS, pharmacy, practice management and billing, and patient portal.",
+  "type": "scenario",
+  "text": "A front-desk team schedules Maria's appointments, and a billing team prepares her charges and claim. Which system mainly supports these tasks?",
+  "options": [
+   "Practice management and billing system",
+   "Picture archiving and communication system (PACS)",
+   "Laboratory information system (LIS)",
+   "Pharmacy information system"
+  ],
+  "correctIndex": 0,
+  "explanation": "Practice management and billing systems handle scheduling, charges, claims and statements for front-desk and billing staff.",
+  "source": "Session 4, slide 10: Medicine, business and patient systems",
+  "sourceSlide": 10
+ },
+ {
+  "id": "S05-Q1",
+  "session": 5,
+  "objectiveNumber": 1,
+  "objective": "Describe the seven stages of the healthcare data lifecycle, and explain how they differ from the patient's care journey.",
+  "type": "scenario",
+  "text": "A copy of Maria's HbA1c result is matched to her record and loaded into a reporting database. Which data lifecycle stage is this?",
+  "options": [
+   "Processing",
+   "Capture",
+   "Exchange",
+   "Disposal"
+  ],
+  "correctIndex": 0,
+  "explanation": "Processing is when data is matched, coded, copied or calculated. Capture is creation, exchange is sending to other systems or organizations, and disposal is secure destruction.",
+  "source": "Session 5, slide 7: Maria's result, stages 1 to 4",
+  "sourceSlide": 7
+ },
+ {
+  "id": "S05-Q2",
+  "session": 5,
+  "objectiveNumber": 2,
+  "objective": "Define PHI, ePHI, covered entity and business associate in plain language.",
+  "type": "scenario",
+  "text": "Maria's clinic conducts HIPAA-standard electronic transactions, such as billing insurers electronically. It hires a billing company that handles her claims and therefore sees her PHI. Which description is best?",
+  "options": [
+   "The clinic is a covered entity; the billing company is likely a business associate under a written agreement",
+   "Both are covered entities, so no written agreement is needed between the clinic and the company",
+   "Only the billing company has HIPAA duties, because it performs the claims work",
+   "Neither has HIPAA duties, because the data already sits in the clinic's EHR and is shared for payment"
+  ],
+  "correctIndex": 0,
+  "explanation": "A health care provider is a covered entity when it conducts HIPAA-standard electronic transactions; being a clinic alone does not establish this. A party performing a service involving PHI on the covered entity's behalf is a business associate and needs a written agreement (BAA).",
+  "source": "Session 5, slide 10: Covered entities and business associates",
+  "sourceSlide": 10
+ },
+ {
+  "id": "S05-Q3",
+  "session": 5,
+  "objectiveNumber": 3,
+  "objective": "Summarize the Privacy Rule, Security Rule and Breach Notification Rule at an introductory level.",
+  "type": "concept",
+  "text": "A clinic discovers a reportable breach of unsecured PHI. Which statement about notifying the affected individuals is correct?",
+  "options": [
+   "Without unreasonable delay and no later than 60 days after discovery; other deadlines may vary",
+   "Within 30 days of discovery in every case, whatever the size of the breach",
+   "Only when more than 500 people are affected; smaller breaches never need individual notice to anyone",
+   "Within 90 days after the clinic finishes its own investigation, however long that takes"
+  ],
+  "correctIndex": 0,
+  "explanation": "For a reportable breach of unsecured PHI, the Breach Notification Rule requires notice to affected individuals without unreasonable delay and no later than 60 days after discovery. Other notification deadlines vary. Not every exposure of PHI is a reportable breach; the privacy or compliance team decides.",
+  "source": "Session 5, slide 11: The three HIPAA rules",
+  "sourceSlide": 11
+ },
+ {
+  "id": "S05-Q4",
+  "session": 5,
+  "objectiveNumber": 4,
+  "objective": "Explain minimum necessary and its treatment exception, and recognise appropriate access, sharing and incident reporting.",
+  "type": "spot-the-error",
+  "text": "A colleague says: 'Minimum necessary means we must limit the labs we send to a specialist who is treating Maria.' What is wrong?",
+  "options": [
+   "Minimum necessary does not apply to disclosures to a provider for treatment",
+   "Nothing; minimum necessary applies to every disclosure, including those made for treatment",
+   "Minimum necessary applies, but only when the patient has not signed an authorization",
+   "Minimum necessary applies to treatment between organizations, but not inside one hospital"
+  ],
+  "correctIndex": 0,
+  "explanation": "Minimum necessary has a treatment exception: clinicians get what they need to treat. It does apply to many other uses, such as a billing clerk asking for a full chart.",
+  "source": "Session 5, slide 13: Minimum necessary",
+  "sourceSlide": 13
+ },
+ {
+  "id": "S05-Q5",
+  "session": 5,
+  "objectiveNumber": 4,
+  "objective": "Explain minimum necessary and its treatment exception, and recognise appropriate access, sharing and incident reporting.",
+  "type": "best-next-action",
+  "text": "A staff member opened Maria's record out of curiosity, with no work reason. What is the best next step?",
+  "options": [
+   "Stop, do not hide it, and report it promptly through the organization's process",
+   "Close the record quietly and say nothing, since nobody else saw it being opened",
+   "Tell Maria informally and let her decide whether anyone should be notified",
+   "Wait a few days to see whether anyone notices before deciding to report"
+  ],
+  "correctIndex": 0,
+  "explanation": "Access beyond job need is inappropriate. The right step is to stop and report promptly; the privacy or compliance team decides what counts as a breach.",
+  "source": "Session 5, slide 22: Suggested answers 1 to 3",
+  "sourceSlide": 22
+ },
+ {
+  "id": "S05-Q6",
+  "session": 5,
+  "objectiveNumber": 5,
+  "objective": "Explain why removing a name alone does not de-identify data.",
+  "type": "best-next-action",
+  "text": "An analyst removes names from a diabetes extract but keeps visit dates and 5-digit ZIP codes, then wants to share it as 'de-identified'. What should happen next?",
+  "options": [
+   "Do not call it de-identified; ask privacy or compliance, since HIPAA requires a recognised method",
+   "Share it as de-identified, because names are the only identifiers that matter for privacy under HIPAA rules",
+   "Share it as de-identified, because ZIP codes and dates are too general to identify anyone",
+   "Share it, because the recipient is outside the organization and cannot link it back"
+  ],
+  "correctIndex": 0,
+  "explanation": "Removing names alone does not de-identify data; dates and ZIP codes can still identify people. HIPAA recognises specific methods, and privacy or compliance decides.",
+  "source": "Session 5, slide 23: Suggested answers 4 and 5",
+  "sourceSlide": 23
+ },
+ {
+  "id": "S06-Q1",
+  "session": 6,
+  "objectiveNumber": 1,
+  "objective": "Explain interoperability in plain language, and why sharing data can fail even when both organizations use EHRs.",
+  "type": "scenario",
+  "text": "Both a lab and Maria's clinic use EHRs, yet her result arrives as an unreadable attachment. Which statement fits the deck's definition of interoperability?",
+  "options": [
+   "Exchanged but not usefully used: interoperability needs both exchange and meaningful use",
+   "It is interoperable, because delivery of the result to the other system is all the definition requires",
+   "It is interoperable, because both organizations own an EHR that follows a standard",
+   "Interoperability only means two systems have a working network connection between them"
+  ],
+  "correctIndex": 0,
+  "explanation": "Interoperability is exchange plus meaningful use. A delivered result that cannot be read or used has not achieved it.",
+  "source": "Session 6, slide 5: What is interoperability?",
+  "sourceSlide": 5
+ },
+ {
+  "id": "S06-Q2",
+  "session": 6,
+  "objectiveNumber": 2,
+  "objective": "Distinguish HL7 v2 messages, CDA documents and FHIR resources and APIs, without treating them as interchangeable.",
+  "type": "concept",
+  "text": "Which statement best matches the deck's description of HL7 v2, CDA and FHIR?",
+  "options": [
+   "HL7 v2: event messages of segments; CDA: clinical documents; FHIR: modular resources and web APIs",
+   "HL7 v2: clinical documents; CDA: modular resources and web APIs; FHIR: event messages of segments",
+   "HL7 v2: modular resources and web APIs; CDA: event messages of segments; FHIR: clinical documents",
+   "FHIR has replaced both HL7 v2 and CDA, so neither is still used in live systems"
+  ],
+  "correctIndex": 0,
+  "explanation": "The three standards have different shapes and uses, and they coexist. FHIR is itself an HL7 standard and does not make the others obsolete.",
+  "source": "Session 6, slide 9: Three HL7 standards compared",
+  "sourceSlide": 9
+ },
+ {
+  "id": "S06-Q3",
+  "session": 6,
+  "objectiveNumber": 3,
+  "objective": "Read a short synthetic HL7 v2 lab-result message and explain its MSH, PID, OBR and OBX segments.",
+  "type": "spot-the-error",
+  "text": "In the sample message, the line is OBX|1|NM|4548-4^HbA1c^LN||7.2|%|4.0-5.6|H|||F|||20261002083000. Which statement about this segment is correct?",
+  "options": [
+   "It is the OBX segment, and it carries the result value 7.2 with its unit",
+   "It is the PID segment, and it carries the patient's name and date of birth",
+   "It is the MSH segment, and it names the sending and receiving applications",
+   "It is the OBR segment, and it describes the order for the test"
+  ],
+  "correctIndex": 0,
+  "explanation": "OBX carries the observation result: the test identifier, value, unit, reference range and status. PID identifies the patient, MSH is the header, and OBR describes the request.",
+  "source": "Session 6, slide 15: OBX: the result itself",
+  "sourceSlide": 15
+ },
+ {
+  "id": "S06-Q4",
+  "session": 6,
+  "objectiveNumber": 4,
+  "objective": "Describe what an integration engine does, and how terminology standards such as LOINC add meaning.",
+  "type": "concept",
+  "text": "Which task is a typical function of an integration engine sitting between the LIS and the EHR?",
+  "options": [
+   "Receive, validate, transform or map, route and monitor messages",
+   "Decide whether the patient's insurance covers the test that was ordered",
+   "Interpret abnormal results and notify the clinician who should act on them",
+   "Store the permanent legal medical record for each patient"
+  ],
+  "correctIndex": 0,
+  "explanation": "An integration engine receives, validates, transforms, routes and monitors messages. It does not produce results, decide coverage or replace the record.",
+  "source": "Session 6, slide 18: What an integration engine does",
+  "sourceSlide": 18
+ },
+ {
+  "id": "S06-Q5",
+  "session": 6,
+  "objectiveNumber": 5,
+  "objective": "Explain why a delivered or acknowledged message does not prove correct matching, interpretation or workflow.",
+  "type": "best-next-action",
+  "text": "The EHR returned an acknowledgement with code AA for Maria's result, but Dr. Chen cannot find it in her chart two days later. What is the best next step?",
+  "options": [
+   "Check patient matching and the unmatched-results queue; AA only means the message was accepted",
+   "Do nothing, because AA proves the result reached the correct chart and clinician",
+   "Ask the lab to resend the result, because AA means the message was lost somewhere in transit between systems",
+   "Conclude that HL7 failed and plan to replace the whole interface with FHIR"
+  ],
+  "correctIndex": 0,
+  "explanation": "An AA acknowledgement means the receiving application accepted the message. It does not prove correct patient matching, interpretation or clinical workflow.",
+  "source": "Session 6, slide 25: Suggested answers: steps 4 and 5",
+  "sourceSlide": 25
+ },
+ {
+  "id": "S06-Q6",
+  "session": 6,
+  "objectiveNumber": 4,
+  "objective": "Describe what an integration engine does, and how terminology standards such as LOINC add meaning.",
+  "type": "spot-the-error",
+  "text": "A teammate says: 'The message is valid HL7 v2, so every receiving system will interpret the test the same way.' What is the flaw?",
+  "options": [
+   "v2 gives structure; shared meaning also needs agreed codes and units, such as LOINC",
+   "Nothing; a valid v2 message makes every receiving system map each field the same way",
+   "Valid v2 requires every sender to use the same local test names, so meaning is fixed",
+   "v2 is the problem; FHIR guarantees that every system will interpret a test identically"
+  ],
+  "correctIndex": 0,
+  "explanation": "Structure is not meaning. Systems need shared terminology such as LOINC, plus correct units, to treat results as the same test.",
+  "source": "Session 6, slide 19: Structure is not meaning",
+  "sourceSlide": 19
+ },
+ {
+  "id": "S07-Q1",
+  "session": 7,
+  "objectiveNumber": 1,
+  "objective": "Explain why standard terminologies and code sets are used, and how they add meaning to a message's structure.",
+  "type": "scenario",
+  "text": "Three labs send Maria's test as 'A1C', 'HbA1c' and 'Hemoglobin A1c'. Why would the clinic want one shared standard code?",
+  "options": [
+   "So any system can recognise, count and compare them as one test",
+   "So the three labs use identical analyzers and methods",
+   "So each system can keep its own local names without any mapping",
+   "So the claim for the test is paid automatically"
+  ],
+  "correctIndex": 0,
+  "explanation": "A shared code identifies the concept, not just the words. It does not change the value, remove the need for units or guarantee payment.",
+  "source": "Session 7, slide 5: Why we use standard codes",
+  "sourceSlide": 5
+ },
+ {
+  "id": "S07-Q2",
+  "session": 7,
+  "objectiveNumber": 2,
+  "objective": "Distinguish clinical documentation terminologies from billing and statistical classifications.",
+  "type": "scenario",
+  "text": "Maria's clinic wants a detailed clinical concept for her problem list, while her claim needs a classified diagnosis. Which two systems fit best?",
+  "options": [
+   "SNOMED CT for the clinical concept; ICD-10-CM for the claim diagnosis",
+   "ICD-10-CM for the clinical concept; SNOMED CT for the claim diagnosis",
+   "CPT for the clinical concept; HCPCS Level II for the claim diagnosis",
+   "LOINC for the clinical concept; RxNorm for the claim diagnosis"
+  ],
+  "correctIndex": 0,
+  "explanation": "SNOMED CT is a detailed clinical terminology; ICD-10-CM classifies diagnoses for claims and statistics. LOINC identifies lab tests and RxNorm identifies drugs.",
+  "source": "Session 7, slide 11: Maria: one story, several code systems",
+  "sourceSlide": 11
+ },
+ {
+  "id": "S07-Q3",
+  "session": 7,
+  "objectiveNumber": 3,
+  "objective": "Match ICD-10-CM, ICD-10-PCS, CPT, HCPCS Level II, SNOMED CT, LOINC and RxNorm to their purpose, without treating them as interchangeable.",
+  "type": "scenario",
+  "text": "Maria's clinic supplies her with a home glucose meter. Which system is most likely to describe this item on a claim?",
+  "options": [
+   "HCPCS Level II",
+   "CPT procedure codes",
+   "ICD-10-PCS procedure codes",
+   "RxNorm drug names"
+  ],
+  "correctIndex": 0,
+  "explanation": "HCPCS Level II codes supplies, equipment, drugs and services not in CPT. ICD-10-PCS is for inpatient hospital procedures and RxNorm normalises drug names.",
+  "source": "Session 7, slide 11: Maria: one story, several code systems",
+  "sourceSlide": 11
+ },
+ {
+  "id": "S07-Q4",
+  "session": 7,
+  "objectiveNumber": 4,
+  "objective": "Explain local-to-standard mapping, and why similar names do not mean equivalent concepts.",
+  "type": "concept",
+  "text": "Which statement about mapping local codes to standard codes is correct?",
+  "options": [
+   "Mappings need expert review; some are one-to-many or many-to-one and can lose detail",
+   "If two names look alike, the codes are equivalent and no review is needed",
+   "Every local code maps to exactly one standard code, so a mapping never loses any detail or meaning",
+   "Once a mapping is built it stays correct and never needs to be revisited"
+  ],
+  "correctIndex": 0,
+  "explanation": "Similar names do not mean equivalent concepts. Mappings are not always one-to-one and must be checked and maintained.",
+  "source": "Session 7, slide 13: Mappings are not always one-to-one",
+  "sourceSlide": 13
+ },
+ {
+  "id": "S07-Q5",
+  "session": 7,
+  "objectiveNumber": 5,
+  "objective": "Describe how wrong codes, missing units, outdated versions and poor mappings affect reporting, analytics and claims.",
+  "type": "scenario",
+  "text": "A result of 7.2 arrives for Maria's HbA1c with no unit. What is the most likely effect on reports?",
+  "options": [
+   "It cannot be interpreted with confidence and may be dropped or misused",
+   "Every system will assume the usual percent unit, so reports stay correct",
+   "The receiving EHR will always add the correct unit automatically",
+   "The LOINC test code makes the unit unnecessary, so reports are unaffected"
+  ],
+  "correctIndex": 0,
+  "explanation": "A missing unit changes meaning. Analysts may exclude the record or, worse, include it wrongly.",
+  "source": "Session 7, slide 14: When codes go wrong",
+  "sourceSlide": 14
+ },
+ {
+  "id": "S07-Q6",
+  "session": 7,
+  "objectiveNumber": 2,
+  "objective": "Distinguish clinical documentation terminologies from billing and statistical classifications.",
+  "type": "best-next-action",
+  "text": "A coder is asked to choose a diagnosis code for Maria's visit, but the note says only 'follow-up, doing OK'. What is the best next step?",
+  "options": [
+   "Ask the clinician to clarify; do not guess a code from insufficient documentation",
+   "Choose the most common diabetes code, because Maria is known to have diabetes",
+   "Reuse the diagnosis code from her last visit so that the claim matches her history",
+   "Leave the diagnosis off the claim and submit it anyway, since the note is brief"
+  ],
+  "correctIndex": 0,
+  "explanation": "Codes must follow the documentation and the applicable coding rules. When documentation is insufficient, the usual practice is to ask the clinician, not to guess.",
+  "source": "Session 7, slide 6: Two jobs: documenting care and billing for it",
+  "sourceSlide": 6
+ },
+ {
+  "id": "S08-Q1",
+  "session": 8,
+  "objectiveNumber": 1,
+  "objective": "Describe the stages of the revenue cycle, and distinguish the revenue cycle from the lifecycle of a single claim.",
+  "type": "scenario",
+  "text": "The front desk collects Maria's copay when she arrives. Which statement is correct?",
+  "options": [
+   "It is part of the revenue cycle, but not part of the lifecycle of the claim",
+   "It belongs to the claim lifecycle only, because it is collected for this claim",
+   "It is outside the revenue cycle, because no claim has been created yet",
+   "It is handled by the clearinghouse before the claim goes to the payer"
+  ],
+  "correctIndex": 0,
+  "explanation": "The revenue cycle covers the whole financial process from registration to follow-up, including steps that are not claims. The claim lifecycle is the journey of one claim.",
+  "source": "Session 8, slide 6: Revenue cycle versus claim lifecycle",
+  "sourceSlide": 6
+ },
+ {
+  "id": "S08-Q2",
+  "session": 8,
+  "objectiveNumber": 2,
+  "objective": "Explain the roles of the provider, clearinghouse (a common, optional intermediary), payer and patient.",
+  "type": "scenario",
+  "text": "A clinic sends its claims directly to a payer without using a clearinghouse. Which statement is correct?",
+  "options": [
+   "That can be done; a clearinghouse is common but not required in every arrangement",
+   "That is not possible; every claim must pass through a clearinghouse first",
+   "That is allowed only for Medicare claims; commercial claims need a clearinghouse",
+   "That is allowed, but the clinic must then submit paper claims only"
+  ],
+  "correctIndex": 0,
+  "explanation": "Claims can be submitted directly or through clearinghouses. Arrangements vary.",
+  "source": "Session 8, slide 9: Who does what: four parties",
+  "sourceSlide": 9
+ },
+ {
+  "id": "S08-Q3",
+  "session": 8,
+  "objectiveNumber": 3,
+  "objective": "Follow Maria's outpatient claim, and distinguish rejected, denied, pending and partly paid claims and their next actions.",
+  "type": "scenario",
+  "text": "A payer paid one of the two services on a claim and denied the other as not covered, with a stated reason on the remittance. What is the best description and next step?",
+  "options": [
+   "Partly paid; read the stated reason, then fix, add information or appeal; do not bill Maria automatically",
+   "Rejected; correct the format and resubmit the claim, then bill Maria for the denied service straight away to recover it",
+   "Pending; the payer has not reached a decision, so wait and take no action on either service",
+   "Paid in full; post the payment and close the account because no patient balance remains"
+  ],
+  "correctIndex": 0,
+  "explanation": "Part of the claim was not paid for a reason other than normal cost sharing. The reason decides the action, and a denied amount does not automatically become the patient's responsibility.",
+  "source": "Session 8, slide 12: Pending and partly paid claims",
+  "sourceSlide": 12
+ },
+ {
+  "id": "S08-Q4",
+  "session": 8,
+  "objectiveNumber": 4,
+  "objective": "Reconcile billed charge, allowed amount, contractual adjustment, payer payment and patient responsibility; explain EOB versus remittance advice.",
+  "type": "calculation",
+  "text": "Maria's covered in-network claim has a billed charge of $900 and an allowed amount of $600. No copay applies, and Maria has not reached her out-of-pocket maximum. She has $100 of her deductible left, then pays 20% coinsurance. How much does the payer pay?",
+  "options": [
+   "$400",
+   "$480",
+   "$500",
+   "$700"
+  ],
+  "correctIndex": 0,
+  "explanation": "Maria's share is $100 + 20% x ($600 - $100) = $100 + $100 = $200. The payer pays $600 - $200 = $400, and the $300 contractual adjustment is not billed. Check: $400 + $200 = $600 allowed; $400 + $200 + $300 = $900 billed.",
+  "source": "Session 8, slide 15: Payment example: the arithmetic",
+  "sourceSlide": 15
+ },
+ {
+  "id": "S08-Q5",
+  "session": 8,
+  "objectiveNumber": 4,
+  "objective": "Reconcile billed charge, allowed amount, contractual adjustment, payer payment and patient responsibility; explain EOB versus remittance advice.",
+  "type": "concept",
+  "text": "Maria's insurer sends her a statement marked 'This is not a bill', and the clinic receives a remittance advice for the same claim. Which statement is correct?",
+  "options": [
+   "EOB goes to the patient to explain processing; remittance advice goes to the provider to post payments",
+   "Both go to the patient, and both are bills that must be paid when they arrive",
+   "The remittance advice goes to the patient and the EOB goes to the provider for posting",
+   "Both go to the clearinghouse, which then bills Maria for the balance on the provider's behalf after reviewing it"
+  ],
+  "correctIndex": 0,
+  "explanation": "An EOB explains processing to the patient and is not a bill. The remittance advice explains payment to the provider; the provider's own statement is the bill.",
+  "source": "Session 8, slide 16: EOB versus remittance advice",
+  "sourceSlide": 16
+ },
+ {
+  "id": "S08-Q6",
+  "session": 8,
+  "objectiveNumber": 5,
+  "objective": "Identify the X12 transactions 837, 835 and 270/271 by purpose, and distinguish them from HL7 clinical messages.",
+  "type": "concept",
+  "text": "A team wants to send Maria's claim electronically and later read the payer's payment explanation electronically. Which pair of X12 transactions fits?",
+  "options": [
+   "837 to send the claim; 835 for the electronic remittance advice",
+   "835 to send the claim; 837 for the electronic remittance advice",
+   "270 to send the claim; 271 for the remittance advice",
+   "ORU^R01 to send the claim; ACK for the remittance advice"
+  ],
+  "correctIndex": 0,
+  "explanation": "837 carries a claim, 835 is the electronic remittance advice, and 270/271 are eligibility inquiry and response. ORU and ACK are HL7 clinical messages.",
+  "source": "Session 8, slide 17: Electronic transactions: X12",
+  "sourceSlide": 17
+ },
+ {
+  "id": "S09-Q1",
+  "session": 9,
+  "objectiveNumber": 1,
+  "objective": "Describe healthcare quality using six aims, and distinguish structure, process and outcome measures.",
+  "type": "concept",
+  "text": "Which of these is a process measure?",
+  "options": [
+   "The share of adults with diabetes who had an HbA1c test during the year",
+   "The clinic has an EHR with a diabetes registry",
+   "The share of adults with diabetes whose latest HbA1c is above a threshold",
+   "The number of nurses per patient"
+  ],
+  "correctIndex": 0,
+  "explanation": "A process measure looks at what is done for patients. The registry and nurse staffing are structure measures; the latest HbA1c value is an intermediate outcome.",
+  "source": "Session 9, slide 6: Structure, process and outcome measures",
+  "sourceSlide": 6
+ },
+ {
+  "id": "S09-Q2",
+  "session": 9,
+  "objectiveNumber": 2,
+  "objective": "Explain the parts of a measure, and tell one patient's result from a population measure.",
+  "type": "calculation",
+  "text": "In an illustrative training measure, 120 adults with diabetes are eligible and 6 are excluded. Of the denominator, 19 have a latest HbA1c above the threshold and 12 have no result. Patients with no result stay in the denominator. What is the rate above the threshold?",
+  "options": [
+   "16.7%",
+   "15.8%",
+   "18.6%",
+   "10.5%"
+  ],
+  "correctIndex": 0,
+  "explanation": "Denominator = 120 - 6 = 114. Rate = 19 / 114 = 16.7%. 15.8% forgets the exclusions (19/120), 18.6% drops the no-result patients (19/102), and 10.5% is the no-result share (12/114).",
+  "source": "Session 9, slide 9: A worked measure (illustrative)",
+  "sourceSlide": 9
+ },
+ {
+  "id": "S09-Q3",
+  "session": 9,
+  "objectiveNumber": 2,
+  "objective": "Explain the parts of a measure, and tell one patient's result from a population measure.",
+  "type": "scenario",
+  "text": "Maria's latest HbA1c is 7.2%, below the training threshold. The clinic's report shows 20% of its patients above the threshold. Which statement is correct?",
+  "options": [
+   "Maria is counted as not above the threshold; the 20% describes the group",
+   "Maria has a 20% chance of being above the threshold at her next test",
+   "Maria's own result is 20% higher than the training threshold",
+   "The report shows that Maria's care is better than the clinic average"
+  ],
+  "correctIndex": 0,
+  "explanation": "A population rate describes a group, not any one person. A person is either counted in the numerator or not.",
+  "source": "Session 9, slide 8: Maria versus a population report",
+  "sourceSlide": 8
+ },
+ {
+  "id": "S09-Q4",
+  "session": 9,
+  "objectiveNumber": 3,
+  "objective": "Explain value-based care, ACOs with and without downside risk, and two Medicare quality programmes, at an introductory level.",
+  "type": "concept",
+  "text": "Which statement about ACOs with downside risk is correct?",
+  "options": [
+   "Two-sided models can share savings and may owe shared losses; rules vary by programme and track",
+   "Downside risk means the ACO is paid a fixed amount per patient and can never share in savings",
+   "An upside-only ACO must repay Medicare whenever its spending runs above the benchmark",
+   "All ACOs operate under identical rules, the same benchmark and the same level of financial risk"
+  ],
+  "correctIndex": 0,
+  "explanation": "In a two-sided arrangement an ACO can share savings and may owe losses. An upside-only arrangement does not repay losses. Rules differ across programmes and tracks.",
+  "source": "Session 9, slide 11: ACOs and shared savings",
+  "sourceSlide": 11
+ },
+ {
+  "id": "S09-Q5",
+  "session": 9,
+  "objectiveNumber": 4,
+  "objective": "Explain what EHR, lab, claims and patient-reported data can and cannot establish, and how data problems change a measure.",
+  "type": "scenario",
+  "text": "An analyst builds a diabetes report using only claims data and tries to report each patient's latest HbA1c value. What is the main problem?",
+  "options": [
+   "Ordinary billing claims generally lack the exact numeric HbA1c result; linked lab or EHR data is needed",
+   "Claims are too aggregated to show individual patients, so a patient-level report is impossible",
+   "Claims never carry diagnosis codes, so patients with diabetes could not be identified",
+   "Claims include only the patient's most recent visit, so earlier results would be missing"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ordinary billing claims generally do not carry the exact numeric lab result. Some quality-reporting codes can encode limited clinical information, but the result value usually comes from linked lab or EHR data.",
+  "source": "Session 9, slide 14: Data sources: claims and patient-reported",
+  "sourceSlide": 14
+ },
+ {
+  "id": "S09-Q6",
+  "session": 9,
+  "objectiveNumber": 5,
+  "objective": "Explain why comparisons need consistent definitions, and how analytics moves from a gap to action without proving causation.",
+  "type": "best-next-action",
+  "text": "Clinic A's rate above the threshold is lower than Clinic B's. Which action is best before saying Clinic A provides better care?",
+  "options": [
+   "Check definitions, period, patient mix, patient numbers and data completeness for both clinics",
+   "Accept it as proof, because a lower rate always means the clinic provides better care to its patients",
+   "Accept it, because risk adjustment removes every difference between the two clinics",
+   "Reject it outright, because rates from different clinics can never be compared"
+  ],
+  "correctIndex": 0,
+  "explanation": "Comparisons need consistent definitions and comparable populations. Risk adjustment helps, but it does not remove every difference.",
+  "source": "Session 9, slide 16: Fair comparisons and risk adjustment",
+  "sourceSlide": 16
+ },
+ {
+  "id": "S10-Q1",
+  "session": 10,
+  "objectiveNumber": 1,
+  "objective": "Distinguish rule-based automation, predictive machine learning and generative AI using simple healthcare examples.",
+  "type": "scenario",
+  "text": "A tool learns from past appointment data to estimate which patients are more likely to miss visits. Which kind of tool is it?",
+  "options": [
+   "Predictive machine learning",
+   "Rule-based automation",
+   "Generative AI",
+   "A clinically validated decision system"
+  ],
+  "correctIndex": 0,
+  "explanation": "Predictive ML learns patterns from past data to estimate a likelihood. Rule-based tools follow fixed if-then rules, and generative AI creates new content. Nothing here shows clinical validation.",
+  "source": "Session 10, slide 5: Three kinds of automation and AI",
+  "sourceSlide": 5
+ },
+ {
+  "id": "S10-Q2",
+  "session": 10,
+  "objectiveNumber": 2,
+  "objective": "Describe common uses of AI in healthcare, and tell illustrative examples from verified facts.",
+  "type": "best-next-action",
+  "text": "A vendor says its AI tool is 'FDA-approved' and therefore safe for every use. What is the best response?",
+  "options": [
+   "Ask what it is for, who tested it, on which patients, and whether FDA authorized this use",
+   "Accept the claim, because FDA authorization covers every setting and patient group",
+   "Accept the claim, because FDA authorization means the tool has no bias",
+   "Reject the claim, because FDA only authorizes drugs and never software"
+  ],
+  "correctIndex": 0,
+  "explanation": "FDA regulates some AI-enabled software as a medical device and lists authorized ones, but not all healthcare AI is FDA-authorized, and an authorization applies to a specific use.",
+  "source": "Session 10, slide 7: Illustrative examples versus verified facts",
+  "sourceSlide": 7
+ },
+ {
+  "id": "S10-Q3",
+  "session": 10,
+  "objectiveNumber": 3,
+  "objective": "Explain the main limitations: wrong or invented outputs, bias, incomplete data, and changing performance.",
+  "type": "scenario",
+  "text": "A risk model built on one hospital's data is used at a rural clinic with different patients and local codes, and its estimates become less reliable. Which limitation is this?",
+  "options": [
+   "Performance can change across populations and settings",
+   "Confabulation: the model invents details that were not in its input",
+   "A rule-based tool following its rules too literally",
+   "A security flaw that exposes the training data"
+  ],
+  "correctIndex": 0,
+  "explanation": "A model can behave differently in another population or setting, and can drift over time. The key question is whether it was tested on patients like ours, in settings like ours.",
+  "source": "Session 10, slide 10: Limitations: bias and changing performance",
+  "sourceSlide": 10
+ },
+ {
+  "id": "S10-Q4",
+  "session": 10,
+  "objectiveNumber": 4,
+  "objective": "Describe responsible use: approved tools, appropriate access, verification, human oversight and escalation.",
+  "type": "concept",
+  "text": "Which statement about patient information and approved AI tools is correct?",
+  "options": [
+   "It remains PHI even when approved; use it only in tools and workflows approved for that data",
+   "Once a use is approved, the information stops being PHI and can go in any tool",
+   "Removing the patient's name is enough to make any clinical note safe to paste into an approved or unapproved tool",
+   "Information is PHI only while it is stored on paper or in the original EHR"
+  ],
+  "correctIndex": 0,
+  "explanation": "Approval is permission to use PHI through approved tools and workflows; it does not change what the information is. Properly de-identified information is no longer PHI.",
+  "source": "Session 10, slide 11: Responsible use: tools, access and privacy",
+  "sourceSlide": 11
+ },
+ {
+  "id": "S10-Q5",
+  "session": 10,
+  "objectiveNumber": 4,
+  "objective": "Describe responsible use: approved tools, appropriate access, verification, human oversight and escalation.",
+  "type": "concept",
+  "text": "An organization has a person review every AI-drafted note, but the reviewer has no access to the source record and about ten seconds per note. Which statement is correct?",
+  "options": [
+   "Review is not automatically safe; reviewers need time, source access, knowledge and authority",
+   "The review makes the use safe, because a trained person checked every draft note",
+   "The review is unnecessary, because approved tools produce draft notes that are always accurate and complete",
+   "The review proves the AI tool itself has been clinically validated for this use"
+  ],
+  "correctIndex": 0,
+  "explanation": "Oversight must be real. A rushed review without source access adds little safety, and review does not make an output clinically validated.",
+  "source": "Session 10, slide 12: Responsible use: verify, oversee, escalate",
+  "sourceSlide": 12
+ },
+ {
+  "id": "S10-Q6",
+  "session": 10,
+  "objectiveNumber": 5,
+  "objective": "Describe healthcare technology career paths and skills, and connect the ten sessions.",
+  "type": "scenario",
+  "text": "Lab results sometimes fail to reach the EHR because the interface between the LIS and the EHR stops processing messages and nobody is alerted. Which example career path mainly involves building, monitoring and troubleshooting links like this?",
+  "options": [
+   "Integration engineer, who builds and monitors the links between systems",
+   "Revenue cycle analyst, who studies claims, denials and payments",
+   "Healthcare data analyst, who builds reports and measures from the data",
+   "Privacy and compliance specialist, who reviews data use, vendors and AI risk"
+  ],
+  "correctIndex": 0,
+  "explanation": "Integration engineers build and monitor the connections between systems (Session 6), using messaging standards and troubleshooting. These are example paths; role names vary and they are not Health Catalyst roles.",
+  "source": "Session 10, slide 21: Career paths: systems and governance",
+  "sourceSlide": 21
+ }
+]
